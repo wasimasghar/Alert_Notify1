@@ -43,7 +43,7 @@ public class Post_adapter extends RecyclerView.Adapter<Post_adapter.PostVireHold
         final Item item=items.get(position);
         holder.tittle_tv.setText(item.getTitle());
 
-
+//how are u
         Document document= Jsoup.parse(item.getContent());
         holder.dec_tv.setText(document.text());
 
